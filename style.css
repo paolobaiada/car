@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gotham Bold', sans-serif;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(2,50vw);
+grid-template-rows: 100vh;
+
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  align-items: center;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.elegance h1{
+    margin-top: 200px;
+    font-size: 80px;
+    font-weight: 700;
+}
+.elegance{
+    width: 30vw;
+    margin: auto;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+.right{
+    background-image: url(/mercedes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.027)
+}
+@media only screen and (max-width:871px) {
+    .elegance h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:450px){
+    .header{
+       display: block;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .elegance h1{
+        font-size: 30px;
+    }
+}
+.icon img{
+    width: 30px;
+}
+.box{
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #000;
+}
+
